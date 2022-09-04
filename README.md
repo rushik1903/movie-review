@@ -1,4 +1,4 @@
-# dbms-project phase-2
+# movie review website
 **Version 1.0.0**
 
 ## Technologies
