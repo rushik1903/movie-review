@@ -4,4 +4,4 @@
 ## Technologies
 HTML, CSS, PHP,XAMPP and MySQL
 ## License and copyright
-© DBMS team-9 IIITDM Kancheepuram
+© DBMS IIITDM Kancheepuram
