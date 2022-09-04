@@ -1,0 +1,28 @@
+
+ /* Display the search results as a column */
+ body{
+ 	margin: 0;
+ 	padding: 0;
+ 	background-image: url(https://github.com/jitinchekka/dbms-phase-2/blob/master/movie-page-bg.png?raw=true);
+ }
+ .search-results{
+	display: grid;
+	/* grid with 2 rows and 3 columns */
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	/* align-items: center; */
+	max-width: 60vw;
+	grid-gap: 20px;
+	flex-wrap: wrap;
+	/* justify-content: space-around; */
+	margin-top: 2rem;
+ }
+ /* Display like a capsule */
+ .search-item{
+	background-color: #dbdad8;
+	/* rounded border solid 1px */
+	border: solid 1px;
+	border-radius: 15px;
+	padding: 10px 0px; 
+	text-align: center;
+ }
